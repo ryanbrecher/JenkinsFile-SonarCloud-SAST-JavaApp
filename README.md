@@ -15,3 +15,12 @@ As a DevSecOps engineer, I have been tasked with creating a Jenkinsfile for perf
 - Sonar Org = javabuggywebapp
 - Sonar ProjectKey = javabuggywebapp
 - Sonar Login = 93f470b908a46156f5844
+
+This JenkinsFile performs the following:
+
+- Checks out source code from the Git repo
+- Builds the Java app with Maven
+- Runs unit tests
+- Performs SAST scan on SonarCloud using configured credentials
+
+The SonarQube environment is configured using the withSonarQubeEnv step. The SonarScanner tool is defined globally and referenced during the scan.
