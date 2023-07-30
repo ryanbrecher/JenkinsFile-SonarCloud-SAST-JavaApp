@@ -1,4 +1,4 @@
-# ![My Skills](https://skillicons.dev/icons?i=jenkins,maven,vscode,java,github)
+# ![My Skills](https://skillicons.dev/icons?i=jenkins,maven,vscode,java,github) <img src="https://github.com/DrllSGT/JenkinsFile-SonarCloud-SAST-JavaApp/assets/52445175/0a35f318-c65a-4b32-b060-fcdbdbe098d9" width=48>
 # JenkinsFile for SonarCloud SAST on Java App
 
 As a DevSecOps engineer, I have been tasked with creating a Jenkinsfile for performing SAST scan on a Java web application using SonarCloud. The Jenkinsfile should include the following stages:
@@ -24,3 +24,4 @@ This JenkinsFile performs the following:
 - Performs SAST scan on SonarCloud using configured credentials
 
 The SonarQube environment is configured using the withSonarQubeEnv step. The SonarScanner tool is defined globally and referenced during the scan.
+
