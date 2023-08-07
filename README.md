@@ -1,7 +1,7 @@
 # ![My Skills](https://skillicons.dev/icons?i=jenkins,maven,vscode,java,github) <img src="https://github.com/DrllSGT/JenkinsFile-SonarCloud-SAST-JavaApp/assets/52445175/0a35f318-c65a-4b32-b060-fcdbdbe098d9" width=48>
 # JenkinsFile for SonarCloud SAST on Java App
 
-As a DevSecOps engineer, I have been tasked with creating a Jenkinsfile for performing SAST scan on a Java web application using SonarCloud. The Jenkinsfile should include the following stages:
+Tasked with creating a Jenkinsfile for performing SAST scan on a Java web application using SonarCloud. The Jenkinsfile should include the following stages:
 
  **Checkout:** Checkout the source code from a Git repository "https://github.com/your-repo/your-node-app.git".
 
